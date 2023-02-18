@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: omiz9988
+    url: jdbc:mysql://localhost:3306/mydb?serverTimezone=UTC
+    username: root
+ # datsource:
+  #  name: mydb
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+  jpa:
+    hibernate:
+      ddl-auto: update
